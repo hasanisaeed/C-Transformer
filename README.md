@@ -2,8 +2,8 @@
 
 I created this repo to test my C programming skills and see how well I could handle it. I decided to implement a Transformer based on the famous [Attention is All You Need](https://arxiv.org/abs/1706.03762) paper.
 
-<p style="text-align: center">
-    <img src=".assets/architecture.png" height = "400px" />
+<p align="center">
+    <img src=".assets/architecture.png" height = "500px" />
 </p>
 
 ## Output
