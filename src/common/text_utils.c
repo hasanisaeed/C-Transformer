@@ -21,7 +21,7 @@ int is_word_unique(char *word, char **words, int word_count)
 
 void process_text(char *text, char ***words, int *word_count, int *capacity)
 {
-    const char *delimiters = " .,!?"; // Define delimiters to split the text
+    const char *delimiters = " .,!?)(-[]،/"; // Define delimiters to split the text
     char *word = strtok(text, delimiters);
 
     while (word != NULL)
